@@ -57,25 +57,16 @@ export default defineConfig({
       registerType: 'autoUpdate',
       strategies: 'generateSW',
       manifest: {
-        name: 'IT Tools',
-        description: 'Aggregated set of useful tools for developers.',
+        name: 'IOUtils',
+        short_name: 'IOUtils',
+        description: 'Swiss Army knife for developers.',
         display: 'standalone',
-        lang: 'fr-FR',
-        start_url: `${baseUrl}?utm_source=pwa&utm_medium=pwa`,
+        lang: 'en-US',
+        start_url: `${baseUrl}`,
         orientation: 'any',
-        theme_color: '#18a058',
+        theme_color: '#b50202',
         background_color: '#f1f5f9',
         icons: [
-          {
-            src: '/favicon-16x16.png',
-            type: 'image/png',
-            sizes: '16x16',
-          },
-          {
-            src: '/favicon-32x32.png',
-            type: 'image/png',
-            sizes: '32x32',
-          },
           {
             src: '/android-chrome-192x192.png',
             sizes: '192x192',

@@ -14,8 +14,7 @@ export default defineConfig({
   transformers: [transformerDirectives(), transformerVariantGroup()],
   theme: {
     colors: {
-      primary: '#1ea54c',
-
+      primary: '#b50202',
     },
   },
   shortcuts: {
